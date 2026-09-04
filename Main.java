@@ -23,7 +23,7 @@ public class Main {
 
         double originalPrice=300.00;
         double discount=20.00;
-        double discountPrice=300*((100-discount)/100);
+        double discountPrice=originalPrice*((100-discount)/100);
         double tax=25.00;
         double priceAfterTax=discountPrice+discountPrice*tax/100;
         System.out.println(originalPrice);
